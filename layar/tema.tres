@@ -1,0 +1,113 @@
+[gd_resource type="Theme" format=3]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tombol"]
+content_margin_left = 8.0
+content_margin_top = 3.0
+content_margin_right = 8.0
+content_margin_bottom = 4.0
+bg_color = Color(0.914, 0.651, 0.353, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 3
+border_color = Color(0.094, 0.086, 0.11, 1)
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tombol_hover"]
+content_margin_left = 8.0
+content_margin_top = 3.0
+content_margin_right = 8.0
+content_margin_bottom = 4.0
+bg_color = Color(0.965, 0.769, 0.416, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 3
+border_color = Color(0.094, 0.086, 0.11, 1)
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tombol_tekan"]
+content_margin_left = 8.0
+content_margin_top = 5.0
+content_margin_right = 8.0
+content_margin_bottom = 2.0
+bg_color = Color(0.69, 0.478, 0.282, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.094, 0.086, 0.11, 1)
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tombol_mati"]
+content_margin_left = 8.0
+content_margin_top = 3.0
+content_margin_right = 8.0
+content_margin_bottom = 4.0
+bg_color = Color(0.757, 0.722, 0.678, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 3
+border_color = Color(0.094, 0.086, 0.11, 0.6)
+anti_aliasing = false
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fokus"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_panel"]
+content_margin_left = 8.0
+content_margin_top = 8.0
+content_margin_right = 8.0
+content_margin_bottom = 8.0
+bg_color = Color(0.957, 0.886, 0.784, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 3
+border_color = Color(0.094, 0.086, 0.11, 1)
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_isian"]
+content_margin_left = 4.0
+content_margin_top = 2.0
+content_margin_right = 4.0
+content_margin_bottom = 2.0
+bg_color = Color(0.98, 0.98, 0.98, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.094, 0.086, 0.11, 1)
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_isian_fokus"]
+content_margin_left = 4.0
+content_margin_top = 2.0
+content_margin_right = 4.0
+content_margin_bottom = 2.0
+draw_center = false
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.369, 0.604, 0.647, 1)
+anti_aliasing = false
+
+[resource]
+default_font_size = 10
+Button/colors/font_color = Color(0.094, 0.086, 0.11, 1)
+Button/colors/font_disabled_color = Color(0.094, 0.086, 0.11, 0.5)
+Button/colors/font_focus_color = Color(0.094, 0.086, 0.11, 1)
+Button/colors/font_hover_color = Color(0.094, 0.086, 0.11, 1)
+Button/colors/font_pressed_color = Color(0.094, 0.086, 0.11, 1)
+Button/styles/disabled = SubResource("StyleBoxFlat_tombol_mati")
+Button/styles/focus = SubResource("StyleBoxEmpty_fokus")
+Button/styles/hover = SubResource("StyleBoxFlat_tombol_hover")
+Button/styles/normal = SubResource("StyleBoxFlat_tombol")
+Button/styles/pressed = SubResource("StyleBoxFlat_tombol_tekan")
+Label/colors/font_color = Color(0.094, 0.086, 0.11, 1)
+LineEdit/colors/font_color = Color(0.094, 0.086, 0.11, 1)
+LineEdit/colors/font_placeholder_color = Color(0.094, 0.086, 0.11, 0.45)
+LineEdit/styles/focus = SubResource("StyleBoxFlat_isian_fokus")
+LineEdit/styles/normal = SubResource("StyleBoxFlat_isian")
+PanelContainer/styles/panel = SubResource("StyleBoxFlat_panel")

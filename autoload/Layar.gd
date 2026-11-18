@@ -1,16 +1,17 @@
 extends Node
 # Semua perpindahan layar lewat sini.
+# Nama file scene ditulis huruf kecil semua, sama persis dengan nama file di folder layar/.
 
 const SCENE := {
-	"judul": "res://layar/Judul.tscn",
-	"cerita": "res://layar/Cerita.tscn",
-	"peta": "res://layar/Peta.tscn",
-	"main": "res://layar/Main.tscn",
-	"kuis": "res://layar/Kuis.tscn",
-	"rapor": "res://layar/Rapor.tscn",
-	"skor": "res://layar/PapanSkor.tscn",
-	"pengaturan": "res://layar/Pengaturan.tscn",
-	"panduan": "res://layar/Panduan.tscn",
+	"judul": "res://layar/judul.tscn",
+	"cerita": "res://layar/cerita.tscn",
+	"peta": "res://layar/peta.tscn",
+	"main": "res://layar/main.tscn",
+	"kuis": "res://layar/kuis.tscn",
+	"rapor": "res://layar/rapor.tscn",
+	"skor": "res://layar/papan_skor.tscn",
+	"pengaturan": "res://layar/pengaturan.tscn",
+	"panduan": "res://layar/panduan.tscn",
 }
 
 var sebelumnya := "judul"

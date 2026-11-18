@@ -1,24 +1,148 @@
-[gd_scene format=3 uid="uid://cxfuvpybu6dax"]
+[gd_scene format=3]
 
-[node name="Judul" type="Control" unique_id=2083429344]
+[ext_resource type="Script" path="res://layar/judul.gd" id="1_skrip"]
+[ext_resource type="Theme" path="res://layar/tema.tres" id="2_tema"]
+[ext_resource type="Texture2D" path="res://aset/latar/samping/judul.png" id="3_latar"]
+[ext_resource type="SpriteFrames" path="res://aset/judul/judul_frames.tres" id="4_judul"]
+[ext_resource type="SpriteFrames" path="res://aset/karakter/bang_udin_frames.tres" id="5_udin"]
+[ext_resource type="SpriteFrames" path="res://aset/karakter/bimo_frames.tres" id="6_bimo"]
+[ext_resource type="SpriteFrames" path="res://aset/karakter/sari_frames.tres" id="7_sari"]
+[ext_resource type="SpriteFrames" path="res://aset/karakter/nisa_frames.tres" id="8_nisa"]
+
+[node name="Judul" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("2_tema")
+script = ExtResource("1_skrip")
 
-[node name="Latar" type="ColorRect" parent="." unique_id=1461977914]
+[node name="Latar" type="TextureRect" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.6893467, 1, 0.9997037, 1)
+texture = ExtResource("3_latar")
+expand_mode = 1
 
-[node name="JudulGame" type="Label" parent="." unique_id=150704987]
+[node name="JudulAnim" type="AnimatedSprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(12, 8)
+sprite_frames = ExtResource("4_judul")
+animation = &"intro"
+centered = false
+
+[node name="Karakter" type="Node2D" parent="."]
+
+[node name="BangUdin" type="AnimatedSprite2D" parent="Karakter"]
+position = Vector2(150, 181)
+sprite_frames = ExtResource("5_udin")
+animation = &"idle"
+autoplay = "idle"
+centered = false
+offset = Vector2(-16, -47)
+
+[node name="Bimo" type="AnimatedSprite2D" parent="Karakter"]
+position = Vector2(190, 181)
+sprite_frames = ExtResource("6_bimo")
+animation = &"idle"
+autoplay = "idle"
+centered = false
+offset = Vector2(-16, -47)
+
+[node name="Sari" type="AnimatedSprite2D" parent="Karakter"]
+position = Vector2(220, 181)
+sprite_frames = ExtResource("7_sari")
+animation = &"idle"
+autoplay = "idle"
+centered = false
+offset = Vector2(-16, -47)
+
+[node name="Nisa" type="AnimatedSprite2D" parent="Karakter"]
+position = Vector2(250, 181)
+sprite_frames = ExtResource("8_nisa")
+animation = &"idle"
+autoplay = "idle"
+centered = false
+offset = Vector2(-16, -47)
+
+[node name="Menu" type="VBoxContainer" parent="."]
+unique_name_in_owner = true
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
-text = "Angkot Nekat!"
+offset_left = 312.0
+offset_top = 24.0
+offset_right = 414.0
+offset_bottom = 132.0
+theme_override_constants/separation = 6
+
+[node name="TombolMain" type="Button" parent="Menu"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 22)
+layout_mode = 2
+text = "MAIN"
+
+[node name="TombolPilihBab" type="Button" parent="Menu"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 22)
+layout_mode = 2
+text = "PILIH BAB"
+
+[node name="TombolPanduan" type="Button" parent="Menu"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 22)
+layout_mode = 2
+text = "PANDUAN GURU"
+
+[node name="TombolPengaturan" type="Button" parent="Menu"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 22)
+layout_mode = 2
+text = "PENGATURAN"
+
+[node name="IsiNama" type="PanelContainer" parent="."]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -60.0
+offset_right = 100.0
+offset_bottom = 60.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Isi" type="VBoxContainer" parent="IsiNama"]
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="Tanya" type="Label" parent="IsiNama/Isi"]
+layout_mode = 2
+text = "Kenek baru! Namamu siapa, dan kelas berapa?"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Nama" type="LineEdit" parent="IsiNama/Isi"]
+unique_name_in_owner = true
+layout_mode = 2
+placeholder_text = "Nama"
+max_length = 20
+
+[node name="Kelas" type="LineEdit" parent="IsiNama/Isi"]
+unique_name_in_owner = true
+layout_mode = 2
+placeholder_text = "Kelas, contoh: X RPL 1"
+max_length = 12
+
+[node name="TombolSiap" type="Button" parent="IsiNama/Isi"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 22)
+layout_mode = 2
+text = "SIAP!"
