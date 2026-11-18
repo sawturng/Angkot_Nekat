@@ -1,0 +1,348 @@
+{
+  "bab": [
+    {
+      "id": "1",
+      "nama": "Gerbang Penghitung",
+      "lokasi": "Griya Muter",
+      "lencana": "Penghitung",
+      "timer": 12
+    },
+    {
+      "id": "2",
+      "nama": "Gerbang Sensor",
+      "lokasi": "Warung Bu Imah",
+      "lencana": "Lampu Sensor",
+      "timer": 13
+    },
+    {
+      "id": "3",
+      "nama": "Gerbang Muter Dulu",
+      "lokasi": "Gang Mangga",
+      "lencana": "Pengeras Suara",
+      "timer": 7
+    },
+    {
+      "id": "4",
+      "nama": "Pintas & Lompat",
+      "lokasi": "Pasar Kaget",
+      "lencana": "Pawang Angsa",
+      "timer": 12
+    },
+    {
+      "id": "5",
+      "nama": "Gerbang Bertingkat",
+      "lokasi": "Komplek ABC",
+      "lencana": "Kurir Permen",
+      "timer": 10
+    },
+    {
+      "id": "U",
+      "nama": "Ujian Pasar Malam",
+      "lokasi": "Lap. Merdeka",
+      "lencana": null,
+      "timer": 8
+    }
+  ],
+  "level": [
+    {
+      "id": "1-1",
+      "bab": "1",
+      "judul": "Halte 1 sampai 4",
+      "hari": 1,
+      "bonus": false,
+      "misi": "Hari pertama narik! Anak-anak sudah nunggu di halte 1, 2, 3, dan 4. Kursiku cuma empat, ya. Atur gerbangnya supaya kita singgah di empat halte itu saja, lalu antar ke lapangan.",
+      "blok": "Gerbang Penghitung ×1, Jemput ×1, Antar ×1",
+      "konsep": "Nilai awal menentukan halte pertama. Kondisi menentukan kapan gerbang berhenti.",
+      "komentar": "Mulai dari 1, berhenti setelah 4. Pas!",
+      "kunci": "for (int i = 1; i <= 4; i++) {\n    jemputDiHalte(i);\n}\nantarKeLapangan();"
+    },
+    {
+      "id": "1-2",
+      "bab": "1",
+      "judul": "Genap Saja",
+      "hari": 1,
+      "bonus": false,
+      "misi": "Hari ini yang nunggu cuma anak di halte genap: 2, 4, 6, 8. Gerbangnya sudah kusetel. Tapi kok blok jemputnya malah nongkrong di luar?",
+      "blok": "Gerbang Penghitung ×1, Jemput ×1, Antar ×1",
+      "konsep": "Ruang lingkup: i dibuat di gerbang, jadi i hanya dikenal di dalam gerbang.",
+      "komentar": "Oh, jadi si i itu cuma kenal dunia di dalam gerbang!",
+      "kunci": "for (int i = 2; i <= 8; i += 2) {\n    jemputDiHalte(i);\n}\nantarKeLapangan();"
+    },
+    {
+      "id": "1-3",
+      "bab": "1",
+      "judul": "Hitung Mundur",
+      "hari": 1,
+      "bonus": false,
+      "misi": "Anak di halte 8 sudah nunggu paling lama, terus 7, 6, dan 5. Yang datang duluan harus dijemput duluan. Kita mulai dari halte 8, mundur sampai 5.",
+      "blok": "Gerbang Penghitung ×1, Jemput ×1, Antar ×1",
+      "konsep": "Hitung mundur: nilai awal besar, operator >=, langkah i--.",
+      "komentar": "Yang nunggu paling lama dijemput duluan. Adil!",
+      "kunci": "for (int i = 8; i >= 5; i--) {\n    jemputDiHalte(i);\n}\nantarKeLapangan();"
+    },
+    {
+      "id": "1-B",
+      "bab": "1",
+      "judul": "Ganjil Mundur",
+      "hari": 1,
+      "bonus": true,
+      "misi": "Tantangan: anak di halte ganjil, dijemput dari yang paling jauh. Halte 7, 5, 3, lalu 1. Hati-hati, ada yang aneh juga dengan posisi blok antar.",
+      "blok": "Gerbang Penghitung ×1, Jemput ×1, Antar ×1",
+      "konsep": "Kode sesudah gerbang hanya jalan sekali, setelah gerbang selesai.",
+      "komentar": "Langkah dua-dua, mundur pula. Kenek jago!",
+      "kunci": "for (int i = 7; i >= 1; i -= 2) {\n    jemputDiHalte(i);\n}\nantarKeLapangan();"
+    },
+    {
+      "id": "2-1",
+      "bab": "2",
+      "judul": "Antrian Misterius",
+      "hari": 3,
+      "bonus": false,
+      "misi": "Halte di depan warung ini antriannya misterius. Kadang ramai, kadang sepi, kadang kosong. Pokoknya muter terus selama masih ada yang antre.",
+      "blok": "Gerbang Cek Dulu ×1, Putar & jemput ×1, Antar ×1",
+      "konsep": "while mengecek syarat dulu. Kalau syaratnya salah sejak awal, isinya tidak jalan sama sekali.",
+      "komentar": "Antrian berapa pun, gerbangnya tahu kapan berhenti.",
+      "kunci": "while (antrian > 0) {\n    putarDanJemput();\n}\nantarKeLapangan();"
+    },
+    {
+      "id": "2-2",
+      "bab": "2",
+      "judul": "Setoran Juragan",
+      "hari": 3,
+      "bonus": false,
+      "misi": "Juragan minta setoran minimal Rp20.000 hari ini. Setiap putaran, uang bertambah sesuai tarif hari itu. Tarifnya beda-beda tiap hari.",
+      "blok": "Gerbang Cek Dulu ×1, Putar & jemput ×1, Setor ×1",
+      "konsep": "Akumulator: uang += tarif. Pakai < untuk target, bukan !=.",
+      "komentar": "Pakai \"kurang dari\", jangan \"tidak sama dengan\". Yang penting tidak muter selamanya.",
+      "kunci": "while (uang < 20000) {\n    putarDanJemput();   // uang += tarif\n}\nsetorKeJuragan();"
+    },
+    {
+      "id": "2-3",
+      "bab": "2",
+      "judul": "Bensin Sekarat",
+      "hari": 3,
+      "bonus": false,
+      "misi": "Gawat, jarum bensin hampir di E! Muter selama masih ada antrian DAN JUGA bensinnya masih cukup buat pulang.",
+      "blok": "Gerbang Cek Dulu ×1 (opsi \"dan juga\"), Putar & jemput ×1, Antar ×1",
+      "konsep": "&& : gerbang terus jalan hanya kalau kedua syarat benar.",
+      "komentar": "Sisa satu liter buat ke lapangan. Aman!",
+      "kunci": "while (antrian > 0 && bensin > 1) {\n    putarDanJemput();\n}\nantarKeLapangan();"
+    },
+    {
+      "id": "2-B",
+      "bab": "2",
+      "judul": "Juragan Pelit",
+      "hari": 3,
+      "bonus": true,
+      "misi": "Juragan makin pelit: setoran minimal Rp12.000, tapi bensinnya cuma dikasih sedikit. Kejar setoran, tapi jangan sampai mogok.",
+      "blok": "Gerbang Cek Dulu ×1, Putar & jemput ×1, Setor ×1",
+      "konsep": "Akumulator dan && bisa digabung dalam satu syarat.",
+      "komentar": "Setoran aman, Angkot juga aman.",
+      "kunci": "while (uang < 12000 && bensin > 1) {\n    putarDanJemput();\n}\nsetorKeJuragan();"
+    },
+    {
+      "id": "3-1",
+      "bab": "3",
+      "judul": "Lagu Pemanggil",
+      "hari": 3,
+      "bonus": false,
+      "misi": "Anak-anak di komplek ini baru keluar rumah kalau dengar lagu. Masalahnya, sebelum aku nyanyi, antriannya selalu kosong. Terus kapan berangkatnya?",
+      "blok": "Gerbang Cek Dulu ×1, Gerbang Muter Dulu ×1, Putar sambil nyanyi ×1, Antar ×1",
+      "konsep": "do-while: jalan dulu sekali, baru cek syarat.",
+      "komentar": "Nyanyi dulu, baru dicek. Anak-anak pada keluar!",
+      "kunci": "do {\n    putarSambilNyanyi();\n} while (antrian > 0);\nantarKeLapangan();"
+    },
+    {
+      "id": "3-B",
+      "bab": "3",
+      "judul": "Promosi Hemat",
+      "hari": 3,
+      "bonus": true,
+      "misi": "Promosi keliling sambil nyanyi, tapi bensinnya tinggal sedikit. Nyanyi dulu sekali, terus lanjut selama masih ada anak DAN JUGA bensinnya cukup.",
+      "blok": "Gerbang Muter Dulu ×1, Putar sambil nyanyi ×1, Antar ×1",
+      "konsep": "do-while juga bisa memakai &&.",
+      "komentar": "Promosi jalan, bensin nggak habis.",
+      "kunci": "do {\n    putarSambilNyanyi();\n} while (antrian > 0 && bensin > 1);\nantarKeLapangan();"
+    },
+    {
+      "id": "4-1",
+      "bab": "4",
+      "judul": "Ramalan Hujan",
+      "hari": 3,
+      "bonus": false,
+      "misi": "Juragan sudah pesan enam putaran. Gerbangnya dikunci. Tapi kata ramalan cuaca, hari ini bisa hujan. Kalau hujan turun, kita harus pulang saat itu juga.",
+      "blok": "Jalan Pintas Darurat ×1, Putar & jemput ×1 (gerbang terkunci 6 putaran)",
+      "konsep": "break: keluar dari gerbang saat itu juga. Pengecekan ditaruh sebelum aksi.",
+      "komentar": "Hujan? Langsung pulang. Nggak jadi perahu!",
+      "kunci": "for (int putaran = 1; putaran <= 6; putaran++) {\n    if (hujan == 1) break;\n    putarDanJemput();\n}\nantarKeLapangan();"
+    },
+    {
+      "id": "4-2",
+      "bab": "4",
+      "judul": "Angsa Galak",
+      "hari": 3,
+      "bonus": false,
+      "misi": "Ada angsa galak yang suka nongkrong di halte. Kalau ada angsa, lompati saja putaran itu. Putaran berikutnya jalan seperti biasa.",
+      "blok": "Jembatan Lompat ×1, Putar & jemput ×1 (gerbang terkunci 5 putaran)",
+      "konsep": "continue: lewati sisa putaran ini, lanjut ke putaran berikutnya.",
+      "komentar": "Angsa dilompati, kita tetap narik.",
+      "kunci": "for (int putaran = 1; putaran <= 5; putaran++) {\n    if (angsa == 1) continue;\n    putarDanJemput();\n}\nantarKeLapangan();"
+    },
+    {
+      "id": "4-3",
+      "bab": "4",
+      "judul": "Angkot Penuh",
+      "hari": 3,
+      "bonus": false,
+      "misi": "Delapan putaran, kursi cuma empat, dan angsanya masih berkeliaran. Kalau kursi sudah penuh, langsung ke lapangan. Kalau ada angsa, lompati.",
+      "blok": "Jalan Pintas Darurat ×1, Jembatan Lompat ×1, Putar & jemput ×1 (gerbang terkunci 8 putaran)",
+      "konsep": "break dan continue bisa dipakai bersama. Keduanya dicek sebelum aksi.",
+      "komentar": "Per Angkot selamat. Terima kasih, Nek!",
+      "kunci": "for (int putaran = 1; putaran <= 8; putaran++) {\n    if (penumpang == 4) break;\n    if (angsa == 1) continue;\n    putarDanJemput();\n}\nantarKeLapangan();"
+    },
+    {
+      "id": "4-B",
+      "bab": "4",
+      "judul": "Badai di Pasar",
+      "hari": 3,
+      "bonus": true,
+      "misi": "Angkot pasar punya enam kursi. Tapi langit di atas pasar sudah gelap. Pulang kalau hujan atau kalau penuh. Lompati kalau ada angsa.",
+      "blok": "Jalan Pintas Darurat ×2, Jembatan Lompat ×1, Putar & jemput ×1 (gerbang terkunci 8 putaran)",
+      "konsep": "Urutan pengecekan menentukan hasil.",
+      "komentar": "Badai, angsa, kursi penuh. Semua beres!",
+      "kunci": "for (int putaran = 1; putaran <= 8; putaran++) {\n    if (hujan == 1) break;\n    if (penumpang == 6) break;\n    if (angsa == 1) continue;\n    putarDanJemput();\n}\nantarKeLapangan();"
+    },
+    {
+      "id": "5-1",
+      "bab": "5",
+      "judul": "Permen Sekomplek",
+      "hari": 1,
+      "bonus": false,
+      "misi": "Lebaran anak! Bagi permen ke blok A, B, dan C, masing-masing empat gang. Satu gerbang buat blok, satu gerbang buat gang. Tapi yang mana di dalam yang mana?",
+      "blok": "Gerbang Blok ×1, Gerbang Gang ×1, Bagi permen ×1, Parkir ×1",
+      "konsep": "Gerbang dalam berjalan sampai habis di setiap putaran gerbang luar.",
+      "komentar": "Dua belas rumah, semua kebagian!",
+      "kunci": "for (int blok = 0; blok < 3; blok++) {\n    for (int gang = 0; gang < 4; gang++) {\n        bagiPermen(blok, gang);\n    }\n}\nparkirDiLapangan();"
+    },
+    {
+      "id": "5-2",
+      "bab": "5",
+      "judul": "Komplek Tangga",
+      "hari": 1,
+      "bonus": false,
+      "misi": "Komplek sebelah bentuknya seperti tangga: blok A 1 gang, blok B 2 gang, blok C 3 gang. Gerbang Gang harus tahu sedang di blok mana.",
+      "blok": "Gerbang Blok ×1, Gerbang Gang ×1, Bagi permen ×1, Parkir ×1",
+      "konsep": "Batas gerbang dalam boleh bergantung pada variabel gerbang luar.",
+      "komentar": "Nggak ada yang nyasar ke gang buntu!",
+      "kunci": "for (int blok = 0; blok < 3; blok++) {\n    for (int gang = 0; gang < blok + 1; gang++) {\n        bagiPermen(blok, gang);\n    }\n}\nparkirDiLapangan();"
+    },
+    {
+      "id": "5-B",
+      "bab": "5",
+      "judul": "Tangga Terbalik",
+      "hari": 1,
+      "bonus": true,
+      "misi": "Ini komplek tangga terbalik: blok A 3 gang, blok B 2 gang, blok C 1 gang. Makin jauh bloknya, makin sedikit gangnya.",
+      "blok": "Gerbang Blok ×1, Gerbang Gang ×1, Bagi permen ×1, Parkir ×1",
+      "konsep": "Batas 3 - blok membuat gerbang dalam makin pendek.",
+      "komentar": "Warga senang, panci aman.",
+      "kunci": "for (int blok = 0; blok < 3; blok++) {\n    for (int gang = 0; gang < 3 - blok; gang++) {\n        bagiPermen(blok, gang);\n    }\n}\nparkirDiLapangan();"
+    },
+    {
+      "id": "U",
+      "bab": "U",
+      "judul": "Pasar Malam",
+      "hari": 3,
+      "bonus": false,
+      "misi": "Malam Minggu di pasar malam! Juragan minta setoran Rp15.000. Tapi angsa pasar ikut jalan-jalan, dan langit kadang mendung. Pakai semua yang sudah kamu pelajari.",
+      "blok": "Gerbang Cek Dulu ×1, Jalan Pintas ×1, Jembatan Lompat ×1, Putar & jemput ×1, Setor ×1",
+      "konsep": "while, break, dan continue bisa dipakai dalam satu gerbang.",
+      "komentar": "Setoran lunas! Kamu memang kenek andalan.",
+      "kunci": "while (uang < 15000) {\n    if (hujan == 1) break;\n    if (angsa == 1) continue;\n    putarDanJemput();\n}\nsetorKeJuragan();"
+    },
+    {
+      "id": "U2",
+      "bab": "U",
+      "judul": "Karnaval 17-an",
+      "hari": 3,
+      "bonus": true,
+      "misi": "Karnaval 17-an! Jemput selama kursi belum penuh DAN JUGA bensinnya cukup. Hujan? Pulang. Angsa? Lompat.",
+      "blok": "Gerbang Cek Dulu ×1, Jalan Pintas ×1, Jembatan Lompat ×1, Putar & jemput ×1, Antar ×1",
+      "konsep": "Semua syarat yang pernah muncul, dalam satu papan.",
+      "komentar": "Merdeka! Angkot hias sampai karnaval.",
+      "kunci": "while (penumpang < 5 && bensin > 1) {\n    if (hujan == 1) break;\n    if (angsa == 1) continue;\n    putarDanJemput();\n}\nantarKeLapangan();"
+    }
+  ],
+  "kuis": {
+    "1": [
+      {
+        "tanya": "Halte mana saja yang disinggahi gerbang ini?",
+        "kode": "for (int i = 3; i <= 7; i += 2) {\n    jemputDiHalte(i);\n}",
+        "pilihan": [
+          "3, 5, 7",
+          "3, 4, 5, 6, 7",
+          "3, 5, 7, 9",
+          "4, 6"
+        ],
+        "benar": 0,
+        "bahas": "i mulai dari 3 dan naik 2: 3, 5, 7. Saat i jadi 9, syarat 9 <= 7 salah, jadi gerbang berhenti."
+      }
+    ],
+    "2": [
+      {
+        "tanya": "Kenapa gerbang ini tidak pernah berhenti?",
+        "kode": "while (antrian >= 0) {\n    putarDanJemput();\n}",
+        "pilihan": [
+          "Antrian tidak pernah kurang dari 0, jadi syaratnya selalu benar",
+          "Operator >= tidak boleh dipakai di while",
+          "Antrian harus dimulai dari 1",
+          "while memang selalu muter 15 kali"
+        ],
+        "benar": 0,
+        "bahas": "Antrian paling kecil 0, dan 0 >= 0 itu benar. Pakai antrian > 0 supaya berhenti saat antrian habis."
+      }
+    ],
+    "3": [
+      {
+        "tanya": "Kalau awalnya n = 0, berapa nilai n setelah kode ini?",
+        "kode": "do {\n    n++;\n} while (n < 0);",
+        "pilihan": [
+          "0",
+          "1",
+          "-1",
+          "Tidak pernah berhenti"
+        ],
+        "benar": 1,
+        "bahas": "do-while jalan dulu sekali (n jadi 1), baru cek syarat. 1 < 0 salah, jadi berhenti dengan n = 1."
+      }
+    ],
+    "4": [
+      {
+        "tanya": "Apa yang tercetak?",
+        "kode": "for (int i = 1; i <= 5; i++) {\n    printf(\"%d \", i);\n    if (i == 3) break;\n}",
+        "pilihan": [
+          "1 2",
+          "1 2 3",
+          "1 2 3 4 5",
+          "3"
+        ],
+        "benar": 1,
+        "bahas": "printf jalan dulu sebelum pengecekan, jadi 3 sempat tercetak. Setelah itu break menghentikan gerbang."
+      }
+    ],
+    "5": [
+      {
+        "tanya": "Bentuk apa yang tercetak?",
+        "kode": "for (int i = 1; i <= 3; i++) {\n    for (int j = 1; j <= i; j++) {\n        printf(\"*\");\n    }\n    printf(\"\\n\");\n}",
+        "pilihan": [
+          "Segitiga: 1, 2, lalu 3 bintang",
+          "Persegi 3 × 3 bintang",
+          "Segitiga terbalik: 3, 2, lalu 1 bintang",
+          "Satu baris berisi 6 bintang"
+        ],
+        "benar": 0,
+        "bahas": "Gerbang dalam berjalan sebanyak i. Baris 1 dapat 1 bintang, baris 2 dapat 2, baris 3 dapat 3."
+      }
+    ]
+  }
+}
