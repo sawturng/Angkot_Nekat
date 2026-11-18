@@ -1,0 +1,2391 @@
+{
+  "frame_w": 32,
+  "frame_h": 48,
+  "foot_row": 46,
+  "animations": [
+    {
+      "name": "idle",
+      "fps": 4,
+      "loop": true,
+      "frames": 2
+    },
+    {
+      "name": "walk",
+      "fps": 8,
+      "loop": true,
+      "frames": 4
+    },
+    {
+      "name": "naik",
+      "fps": 6,
+      "loop": false,
+      "frames": 3
+    },
+    {
+      "name": "senang",
+      "fps": 6,
+      "loop": true,
+      "frames": 2
+    },
+    {
+      "name": "nangis",
+      "fps": 5,
+      "loop": true,
+      "frames": 2
+    }
+  ],
+  "characters": [
+    {
+      "name": "kenek",
+      "label": "Kenek",
+      "frames": 13
+    },
+    {
+      "name": "bang_udin",
+      "label": "Bang Udin",
+      "frames": 13
+    },
+    {
+      "name": "sari",
+      "label": "Sari",
+      "frames": 13
+    },
+    {
+      "name": "bimo",
+      "label": "Bimo",
+      "frames": 13
+    },
+    {
+      "name": "nisa",
+      "label": "Nisa",
+      "frames": 13
+    },
+    {
+      "name": "juragan_darto",
+      "label": "Juragan Darto",
+      "frames": 13
+    },
+    {
+      "name": "anak_a_ucok",
+      "label": "Anak A \u00b7 Ucok",
+      "frames": 13
+    },
+    {
+      "name": "anak_b_putri",
+      "label": "Anak B \u00b7 Putri",
+      "frames": 13
+    },
+    {
+      "name": "anak_c_dodi",
+      "label": "Anak C \u00b7 Dodi",
+      "frames": 13
+    },
+    {
+      "name": "anak_d_ayu",
+      "label": "Anak D \u00b7 Ayu",
+      "frames": 13
+    },
+    {
+      "name": "anak_e_tole",
+      "label": "Anak E \u00b7 Tole",
+      "frames": 13
+    }
+  ],
+  "palette": [
+    {
+      "code": "UM-01",
+      "hex": "#18161c",
+      "name": "Outline tinta",
+      "users": [
+        "Kenek",
+        "Bang Udin",
+        "Sari",
+        "Bimo",
+        "Nisa",
+        "Juragan Darto",
+        "Anak A \u00b7 Ucok",
+        "Anak B \u00b7 Putri",
+        "Anak C \u00b7 Dodi",
+        "Anak D \u00b7 Ayu",
+        "Anak E \u00b7 Tole",
+        "Potret Udin",
+        "Ikon",
+        "Judul",
+        "Latar"
+      ]
+    },
+    {
+      "code": "UM-02",
+      "hex": "#fafafa",
+      "name": "Putih (kilau mata, gigi, handuk, kerah)",
+      "users": [
+        "Kenek",
+        "Bang Udin",
+        "Sari",
+        "Bimo",
+        "Nisa",
+        "Juragan Darto",
+        "Anak A \u00b7 Ucok",
+        "Anak B \u00b7 Putri",
+        "Anak C \u00b7 Dodi",
+        "Anak D \u00b7 Ayu",
+        "Anak E \u00b7 Tole",
+        "Potret Udin",
+        "Ikon",
+        "Judul",
+        "Latar"
+      ]
+    },
+    {
+      "code": "UM-03",
+      "hex": "#f6ccb0",
+      "name": "Kulit",
+      "users": [
+        "Kenek",
+        "Bang Udin",
+        "Sari",
+        "Bimo",
+        "Nisa",
+        "Juragan Darto",
+        "Anak A \u00b7 Ucok",
+        "Anak B \u00b7 Putri",
+        "Anak C \u00b7 Dodi",
+        "Anak D \u00b7 Ayu",
+        "Anak E \u00b7 Tole",
+        "Potret Udin",
+        "Ikon"
+      ]
+    },
+    {
+      "code": "UM-04",
+      "hex": "#e2b094",
+      "name": "Kulit bayangan",
+      "users": [
+        "Kenek",
+        "Bang Udin",
+        "Sari",
+        "Bimo",
+        "Nisa",
+        "Juragan Darto",
+        "Anak A \u00b7 Ucok",
+        "Anak B \u00b7 Putri",
+        "Anak C \u00b7 Dodi",
+        "Anak D \u00b7 Ayu",
+        "Anak E \u00b7 Tole",
+        "Potret Udin",
+        "Ikon",
+        "Latar"
+      ]
+    },
+    {
+      "code": "UM-05",
+      "hex": "#ee9696",
+      "name": "Pipi merona",
+      "users": [
+        "Kenek",
+        "Bang Udin",
+        "Sari",
+        "Bimo",
+        "Nisa",
+        "Anak A \u00b7 Ucok",
+        "Anak B \u00b7 Putri",
+        "Anak C \u00b7 Dodi",
+        "Anak D \u00b7 Ayu",
+        "Anak E \u00b7 Tole",
+        "Potret Udin",
+        "Ikon"
+      ]
+    },
+    {
+      "code": "UM-06",
+      "hex": "#be5a50",
+      "name": "Mulut",
+      "users": [
+        "Kenek",
+        "Bimo",
+        "Nisa",
+        "Anak A \u00b7 Ucok",
+        "Anak B \u00b7 Putri",
+        "Anak C \u00b7 Dodi",
+        "Anak D \u00b7 Ayu",
+        "Anak E \u00b7 Tole",
+        "Ikon"
+      ]
+    },
+    {
+      "code": "UM-07",
+      "hex": "#96323c",
+      "name": "Mulut terbuka",
+      "users": [
+        "Kenek",
+        "Sari",
+        "Bimo",
+        "Nisa",
+        "Juragan Darto",
+        "Anak A \u00b7 Ucok",
+        "Anak B \u00b7 Putri",
+        "Anak C \u00b7 Dodi",
+        "Anak D \u00b7 Ayu",
+        "Anak E \u00b7 Tole",
+        "Potret Udin"
+      ]
+    },
+    {
+      "code": "UM-08",
+      "hex": "#ec7882",
+      "name": "Lidah",
+      "users": [
+        "Kenek",
+        "Bang Udin",
+        "Sari",
+        "Bimo",
+        "Nisa",
+        "Juragan Darto",
+        "Anak A \u00b7 Ucok",
+        "Anak B \u00b7 Putri",
+        "Anak C \u00b7 Dodi",
+        "Anak D \u00b7 Ayu",
+        "Anak E \u00b7 Tole",
+        "Potret Udin"
+      ]
+    },
+    {
+      "code": "UM-09",
+      "hex": "#78242c",
+      "name": "Mulut menangis",
+      "users": [
+        "Kenek",
+        "Bang Udin",
+        "Sari",
+        "Bimo",
+        "Nisa",
+        "Juragan Darto",
+        "Anak A \u00b7 Ucok",
+        "Anak B \u00b7 Putri",
+        "Anak C \u00b7 Dodi",
+        "Anak D \u00b7 Ayu",
+        "Anak E \u00b7 Tole"
+      ]
+    },
+    {
+      "code": "UM-10",
+      "hex": "#6ebaf0",
+      "name": "Air mata",
+      "users": [
+        "Kenek",
+        "Bang Udin",
+        "Sari",
+        "Bimo",
+        "Nisa",
+        "Juragan Darto",
+        "Anak A \u00b7 Ucok",
+        "Anak B \u00b7 Putri",
+        "Anak C \u00b7 Dodi",
+        "Anak D \u00b7 Ayu",
+        "Anak E \u00b7 Tole",
+        "Potret Udin",
+        "Ikon",
+        "Judul",
+        "Latar"
+      ]
+    },
+    {
+      "code": "UM-11",
+      "hex": "#bee6ff",
+      "name": "Air mata sorot",
+      "users": [
+        "Kenek",
+        "Bang Udin",
+        "Sari",
+        "Bimo",
+        "Nisa",
+        "Juragan Darto",
+        "Anak A \u00b7 Ucok",
+        "Anak B \u00b7 Putri",
+        "Anak C \u00b7 Dodi",
+        "Anak D \u00b7 Ayu",
+        "Anak E \u00b7 Tole",
+        "Potret Udin",
+        "Ikon",
+        "Latar"
+      ]
+    },
+    {
+      "code": "UM-12",
+      "hex": "#ffffff",
+      "name": "Putih terang (sorot tetes)",
+      "users": [
+        "Bimo",
+        "Latar"
+      ]
+    },
+    {
+      "code": "RB-01",
+      "hex": "#1e1c22",
+      "name": "Rambut hitam",
+      "users": [
+        "Kenek",
+        "Bang Udin",
+        "Sari",
+        "Bimo",
+        "Juragan Darto",
+        "Anak A \u00b7 Ucok",
+        "Anak D \u00b7 Ayu",
+        "Potret Udin",
+        "Ikon"
+      ]
+    },
+    {
+      "code": "RB-02",
+      "hex": "#403c48",
+      "name": "Rambut hitam sorot",
+      "users": [
+        "Kenek",
+        "Sari",
+        "Juragan Darto",
+        "Anak A \u00b7 Ucok",
+        "Anak D \u00b7 Ayu",
+        "Potret Udin"
+      ]
+    },
+    {
+      "code": "RB-03",
+      "hex": "#3a2a24",
+      "name": "Rambut cokelat",
+      "users": [
+        "Anak B \u00b7 Putri"
+      ]
+    },
+    {
+      "code": "RB-04",
+      "hex": "#5a4038",
+      "name": "Rambut cokelat sorot halus",
+      "users": [
+        "Anak B \u00b7 Putri"
+      ]
+    },
+    {
+      "code": "RB-05",
+      "hex": "#6a4c40",
+      "name": "Rambut cokelat sorot",
+      "users": [
+        "Anak B \u00b7 Putri"
+      ]
+    },
+    {
+      "code": "RB-06",
+      "hex": "#2a2a36",
+      "name": "Rambut hitam kebiruan",
+      "users": [
+        "Anak C \u00b7 Dodi"
+      ]
+    },
+    {
+      "code": "RB-07",
+      "hex": "#4a4a5a",
+      "name": "Rambut kebiruan sorot",
+      "users": [
+        "Anak C \u00b7 Dodi"
+      ]
+    },
+    {
+      "code": "RB-08",
+      "hex": "#3a3840",
+      "name": "Rambut cepak",
+      "users": [
+        "Anak E \u00b7 Tole",
+        "Ikon",
+        "Latar"
+      ]
+    },
+    {
+      "code": "RB-09",
+      "hex": "#5a5862",
+      "name": "Rambut cepak sorot",
+      "users": [
+        "Anak E \u00b7 Tole",
+        "Ikon",
+        "Latar"
+      ]
+    },
+    {
+      "code": "RB-10",
+      "hex": "#1c1a1e",
+      "name": "Peci",
+      "users": [
+        "Bang Udin",
+        "Potret Udin"
+      ]
+    },
+    {
+      "code": "RB-11",
+      "hex": "#46424a",
+      "name": "Peci sorot",
+      "users": [
+        "Bang Udin",
+        "Potret Udin"
+      ]
+    },
+    {
+      "code": "RB-12",
+      "hex": "#0c0c0e",
+      "name": "Peci lipatan bawah",
+      "users": [
+        "Bang Udin",
+        "Potret Udin"
+      ]
+    },
+    {
+      "code": "RB-13",
+      "hex": "#96969c",
+      "name": "Uban cambang",
+      "users": [
+        "Juragan Darto",
+        "Ikon",
+        "Latar"
+      ]
+    },
+    {
+      "code": "RB-14",
+      "hex": "#282a34",
+      "name": "Rambut belakang (tampak belakang)",
+      "users": [
+        "Juragan Darto"
+      ]
+    },
+    {
+      "code": "KN-01",
+      "hex": "#ea6c34",
+      "name": "Kaos oranye",
+      "users": [
+        "Kenek"
+      ]
+    },
+    {
+      "code": "KN-02",
+      "hex": "#c44e26",
+      "name": "Kaos oranye bayangan",
+      "users": [
+        "Kenek",
+        "Ikon",
+        "Judul",
+        "Latar"
+      ]
+    },
+    {
+      "code": "KN-03",
+      "hex": "#468cc8",
+      "name": "Garis handuk biru",
+      "users": [
+        "Kenek",
+        "Ikon",
+        "Latar"
+      ]
+    },
+    {
+      "code": "KN-04",
+      "hex": "#5c381e",
+      "name": "Tali tas",
+      "users": [
+        "Kenek",
+        "Juragan Darto"
+      ]
+    },
+    {
+      "code": "KN-05",
+      "hex": "#8c5832",
+      "name": "Tas selempang",
+      "users": [
+        "Kenek",
+        "Anak E \u00b7 Tole",
+        "Ikon",
+        "Latar"
+      ]
+    },
+    {
+      "code": "KN-06",
+      "hex": "#6e4224",
+      "name": "Tas bayangan",
+      "users": [
+        "Kenek",
+        "Anak E \u00b7 Tole",
+        "Ikon",
+        "Latar"
+      ]
+    },
+    {
+      "code": "KN-07",
+      "hex": "#dcbe5a",
+      "name": "Gesper / kancing emas",
+      "users": [
+        "Kenek",
+        "Bang Udin",
+        "Potret Udin"
+      ]
+    },
+    {
+      "code": "KN-08",
+      "hex": "#b09668",
+      "name": "Celana krem",
+      "users": [
+        "Kenek"
+      ]
+    },
+    {
+      "code": "KN-09",
+      "hex": "#927a52",
+      "name": "Celana krem bayangan",
+      "users": [
+        "Kenek"
+      ]
+    },
+    {
+      "code": "KN-10",
+      "hex": "#325aaa",
+      "name": "Sepatu biru",
+      "users": [
+        "Kenek"
+      ]
+    },
+    {
+      "code": "KN-11",
+      "hex": "#22407a",
+      "name": "Sepatu biru bayangan",
+      "users": [
+        "Kenek"
+      ]
+    },
+    {
+      "code": "UD-01",
+      "hex": "#c43834",
+      "name": "Kemeja kotak merah",
+      "users": [
+        "Bang Udin",
+        "Anak E \u00b7 Tole",
+        "Potret Udin",
+        "Ikon",
+        "Judul",
+        "Latar"
+      ]
+    },
+    {
+      "code": "UD-02",
+      "hex": "#962426",
+      "name": "Kemeja kotak merah tua",
+      "users": [
+        "Bang Udin",
+        "Anak E \u00b7 Tole",
+        "Potret Udin",
+        "Ikon",
+        "Judul",
+        "Latar"
+      ]
+    },
+    {
+      "code": "UD-03",
+      "hex": "#f4e2c8",
+      "name": "Garis kotak krem",
+      "users": [
+        "Bang Udin",
+        "Potret Udin",
+        "Ikon",
+        "Latar"
+      ]
+    },
+    {
+      "code": "UD-04",
+      "hex": "#a03c3c",
+      "name": "Bibir di bawah kumis",
+      "users": [
+        "Bang Udin",
+        "Juragan Darto",
+        "Potret Udin"
+      ]
+    },
+    {
+      "code": "UD-05",
+      "hex": "#5a3c28",
+      "name": "Ikat pinggang",
+      "users": [
+        "Bang Udin",
+        "Judul"
+      ]
+    },
+    {
+      "code": "UD-06",
+      "hex": "#3c3e4a",
+      "name": "Celana panjang abu",
+      "users": [
+        "Bang Udin",
+        "Anak C \u00b7 Dodi"
+      ]
+    },
+    {
+      "code": "UD-07",
+      "hex": "#2c2e38",
+      "name": "Celana panjang bayangan",
+      "users": [
+        "Bang Udin",
+        "Juragan Darto",
+        "Anak C \u00b7 Dodi"
+      ]
+    },
+    {
+      "code": "UD-08",
+      "hex": "#1e1e26",
+      "name": "Celana paling gelap",
+      "users": [
+        "Bang Udin",
+        "Juragan Darto"
+      ]
+    },
+    {
+      "code": "UD-09",
+      "hex": "#343038",
+      "name": "Sepatu hitam",
+      "users": [
+        "Bang Udin"
+      ]
+    },
+    {
+      "code": "UD-10",
+      "hex": "#282428",
+      "name": "Sepatu hitam bayangan",
+      "users": [
+        "Bang Udin"
+      ]
+    },
+    {
+      "code": "SR-01",
+      "hex": "#263678",
+      "name": "Seragam biru tua",
+      "users": [
+        "Sari",
+        "Ikon",
+        "Latar"
+      ]
+    },
+    {
+      "code": "SR-02",
+      "hex": "#1a265a",
+      "name": "Seragam bayangan",
+      "users": [
+        "Sari",
+        "Ikon",
+        "Latar"
+      ]
+    },
+    {
+      "code": "SR-03",
+      "hex": "#121c46",
+      "name": "Lipit rok",
+      "users": [
+        "Sari"
+      ]
+    },
+    {
+      "code": "SR-04",
+      "hex": "#c42e38",
+      "name": "Pita & tas merah",
+      "users": [
+        "Sari"
+      ]
+    },
+    {
+      "code": "SR-05",
+      "hex": "#f6c43c",
+      "name": "Ikat rambut kuning",
+      "users": [
+        "Sari",
+        "Potret Udin",
+        "Ikon",
+        "Judul",
+        "Latar"
+      ]
+    },
+    {
+      "code": "BM-01",
+      "hex": "#d63434",
+      "name": "Topi merah",
+      "users": [
+        "Bimo"
+      ]
+    },
+    {
+      "code": "BM-02",
+      "hex": "#a82024",
+      "name": "Topi merah bayangan",
+      "users": [
+        "Bimo"
+      ]
+    },
+    {
+      "code": "BM-03",
+      "hex": "#f07070",
+      "name": "Topi merah sorot",
+      "users": [
+        "Bimo",
+        "Ikon"
+      ]
+    },
+    {
+      "code": "BM-04",
+      "hex": "#f8ce46",
+      "name": "Kaos kuning",
+      "users": [
+        "Bimo"
+      ]
+    },
+    {
+      "code": "BM-05",
+      "hex": "#dcaa28",
+      "name": "Kaos kuning bayangan",
+      "users": [
+        "Bimo",
+        "Ikon",
+        "Judul",
+        "Latar"
+      ]
+    },
+    {
+      "code": "BM-06",
+      "hex": "#ec783c",
+      "name": "Garis kaos oranye",
+      "users": [
+        "Bimo",
+        "Ikon",
+        "Judul",
+        "Latar"
+      ]
+    },
+    {
+      "code": "BM-07",
+      "hex": "#387048",
+      "name": "Celana hijau",
+      "users": [
+        "Bimo"
+      ]
+    },
+    {
+      "code": "BM-08",
+      "hex": "#285636",
+      "name": "Celana hijau bayangan",
+      "users": [
+        "Bimo"
+      ]
+    },
+    {
+      "code": "BM-09",
+      "hex": "#f0f0f0",
+      "name": "Sepatu / kaos putih",
+      "users": [
+        "Bimo",
+        "Anak B \u00b7 Putri",
+        "Anak E \u00b7 Tole",
+        "Latar"
+      ]
+    },
+    {
+      "code": "BM-10",
+      "hex": "#b8bcc8",
+      "name": "Putih bayangan",
+      "users": [
+        "Bimo",
+        "Anak B \u00b7 Putri",
+        "Anak E \u00b7 Tole"
+      ]
+    },
+    {
+      "code": "BM-11",
+      "hex": "#e66e78",
+      "name": "Merah muda (mulut nangis, sepatu Ayu)",
+      "users": [
+        "Bimo",
+        "Anak D \u00b7 Ayu"
+      ]
+    },
+    {
+      "code": "NS-01",
+      "hex": "#96ceec",
+      "name": "Hijab biru muda",
+      "users": [
+        "Nisa"
+      ]
+    },
+    {
+      "code": "NS-02",
+      "hex": "#6eacd6",
+      "name": "Hijab bayangan",
+      "users": [
+        "Nisa"
+      ]
+    },
+    {
+      "code": "NS-03",
+      "hex": "#c4e6f8",
+      "name": "Hijab sorot",
+      "users": [
+        "Nisa"
+      ]
+    },
+    {
+      "code": "NS-04",
+      "hex": "#f0a0b0",
+      "name": "Gamis merah muda",
+      "users": [
+        "Nisa"
+      ]
+    },
+    {
+      "code": "NS-05",
+      "hex": "#d4788e",
+      "name": "Gamis bayangan",
+      "users": [
+        "Nisa"
+      ]
+    },
+    {
+      "code": "NS-06",
+      "hex": "#f05a82",
+      "name": "Permen lolipop",
+      "users": [
+        "Nisa",
+        "Ikon"
+      ]
+    },
+    {
+      "code": "NS-07",
+      "hex": "#fac8dc",
+      "name": "Lolipop sorot",
+      "users": [
+        "Nisa",
+        "Ikon"
+      ]
+    },
+    {
+      "code": "NS-08",
+      "hex": "#fabe3c",
+      "name": "Bros jeruk",
+      "users": [
+        "Nisa"
+      ]
+    },
+    {
+      "code": "NS-09",
+      "hex": "#5aa046",
+      "name": "Daun bros / kaos hijau",
+      "users": [
+        "Nisa",
+        "Anak A \u00b7 Ucok",
+        "Ikon",
+        "Latar"
+      ]
+    },
+    {
+      "code": "NS-10",
+      "hex": "#5a3c32",
+      "name": "Sepatu cokelat",
+      "users": [
+        "Nisa"
+      ]
+    },
+    {
+      "code": "DR-01",
+      "hex": "#965c2c",
+      "name": "Batik cokelat",
+      "users": [
+        "Juragan Darto"
+      ]
+    },
+    {
+      "code": "DR-02",
+      "hex": "#683c1b",
+      "name": "Batik bayangan",
+      "users": [
+        "Juragan Darto"
+      ]
+    },
+    {
+      "code": "DR-03",
+      "hex": "#e9b647",
+      "name": "Motif batik emas",
+      "users": [
+        "Juragan Darto"
+      ]
+    },
+    {
+      "code": "DR-04",
+      "hex": "#78c878",
+      "name": "Layar HP hijau",
+      "users": [
+        "Juragan Darto"
+      ]
+    },
+    {
+      "code": "DR-05",
+      "hex": "#e6f4ec",
+      "name": "Layar HP terang",
+      "users": [
+        "Juragan Darto"
+      ]
+    },
+    {
+      "code": "AA-01",
+      "hex": "#3f7a33",
+      "name": "Kaos hijau bayangan",
+      "users": [
+        "Anak A \u00b7 Ucok",
+        "Ikon",
+        "Latar"
+      ]
+    },
+    {
+      "code": "AA-02",
+      "hex": "#2c3e6e",
+      "name": "Celana biru tua",
+      "users": [
+        "Anak A \u00b7 Ucok"
+      ]
+    },
+    {
+      "code": "AA-03",
+      "hex": "#1f2c52",
+      "name": "Celana biru tua bayangan",
+      "users": [
+        "Anak A \u00b7 Ucok"
+      ]
+    },
+    {
+      "code": "AA-04",
+      "hex": "#c8463c",
+      "name": "Sandal merah",
+      "users": [
+        "Anak A \u00b7 Ucok"
+      ]
+    },
+    {
+      "code": "AB-01",
+      "hex": "#9b6bc8",
+      "name": "Terusan ungu",
+      "users": [
+        "Anak B \u00b7 Putri",
+        "Ikon"
+      ]
+    },
+    {
+      "code": "AB-02",
+      "hex": "#7a4ea6",
+      "name": "Terusan ungu bayangan",
+      "users": [
+        "Anak B \u00b7 Putri"
+      ]
+    },
+    {
+      "code": "AB-03",
+      "hex": "#e23c38",
+      "name": "Jepit / ikat rambut merah",
+      "users": [
+        "Anak B \u00b7 Putri",
+        "Anak D \u00b7 Ayu"
+      ]
+    },
+    {
+      "code": "AC-01",
+      "hex": "#7cbce8",
+      "name": "Kemeja biru muda",
+      "users": [
+        "Anak C \u00b7 Dodi"
+      ]
+    },
+    {
+      "code": "AC-02",
+      "hex": "#4a7cc0",
+      "name": "Garis kemeja / bayangan",
+      "users": [
+        "Anak C \u00b7 Dodi"
+      ]
+    },
+    {
+      "code": "AC-03",
+      "hex": "#8c6a4a",
+      "name": "Celana cokelat",
+      "users": [
+        "Anak C \u00b7 Dodi"
+      ]
+    },
+    {
+      "code": "AC-04",
+      "hex": "#6e5236",
+      "name": "Celana cokelat bayangan",
+      "users": [
+        "Anak C \u00b7 Dodi"
+      ]
+    },
+    {
+      "code": "AD-01",
+      "hex": "#f0c661",
+      "name": "Atasan kuning / garis sarung",
+      "users": [
+        "Anak D \u00b7 Ayu",
+        "Anak E \u00b7 Tole"
+      ]
+    },
+    {
+      "code": "AD-02",
+      "hex": "#d4a23c",
+      "name": "Atasan kuning bayangan",
+      "users": [
+        "Anak D \u00b7 Ayu"
+      ]
+    },
+    {
+      "code": "AD-03",
+      "hex": "#3fa6a0",
+      "name": "Rok toska",
+      "users": [
+        "Anak D \u00b7 Ayu",
+        "Ikon",
+        "Judul",
+        "Latar"
+      ]
+    },
+    {
+      "code": "AD-04",
+      "hex": "#2c7c78",
+      "name": "Rok toska bayangan",
+      "users": [
+        "Anak D \u00b7 Ayu",
+        "Judul",
+        "Latar"
+      ]
+    },
+    {
+      "code": "AE-01",
+      "hex": "#3c8c6e",
+      "name": "Sarung hijau",
+      "users": [
+        "Anak E \u00b7 Tole"
+      ]
+    },
+    {
+      "code": "AE-02",
+      "hex": "#2a6a52",
+      "name": "Sarung hijau tua",
+      "users": [
+        "Anak E \u00b7 Tole"
+      ]
+    },
+    {
+      "code": "AE-03",
+      "hex": "#c8ccd4",
+      "name": "Kaos putih bayangan",
+      "users": [
+        "Anak E \u00b7 Tole",
+        "Ikon",
+        "Latar"
+      ]
+    },
+    {
+      "code": "IK-01",
+      "hex": "#fff3b0",
+      "name": "Emas sorot",
+      "users": [
+        "Ikon",
+        "Judul",
+        "Latar"
+      ]
+    },
+    {
+      "code": "IK-02",
+      "hex": "#8fd070",
+      "name": "Hijau sorot",
+      "users": [
+        "Ikon",
+        "Latar"
+      ]
+    },
+    {
+      "code": "IK-03",
+      "hex": "#b07a48",
+      "name": "Kayu sorot / perunggu",
+      "users": [
+        "Ikon",
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-01",
+      "hex": "#8cc8ec",
+      "name": "Langit siang atas",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-02",
+      "hex": "#9ed4f0",
+      "name": "Langit siang tengah",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-03",
+      "hex": "#b4e0f4",
+      "name": "Langit siang bawah",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-04",
+      "hex": "#d6ecf8",
+      "name": "Awan bayangan",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-05",
+      "hex": "#a8cce0",
+      "name": "Kota jauh siang",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-06",
+      "hex": "#94bcd4",
+      "name": "Kota jauh bayangan",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-07",
+      "hex": "#c4e0ee",
+      "name": "Jendela kota jauh / dinding biru muda",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-08",
+      "hex": "#9ec4dc",
+      "name": "Dinding biru muda bayangan / garis buku",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-09",
+      "hex": "#8e98a8",
+      "name": "Langit mendung atas",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-10",
+      "hex": "#a2acba",
+      "name": "Langit mendung tengah",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-11",
+      "hex": "#b6bec8",
+      "name": "Langit mendung bawah",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-12",
+      "hex": "#a8aeba",
+      "name": "Awan mendung bayangan",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-13",
+      "hex": "#9ca6b4",
+      "name": "Kota jauh mendung",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-14",
+      "hex": "#8c96a6",
+      "name": "Kota jauh mendung bayangan",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-15",
+      "hex": "#344a8c",
+      "name": "Langit malam bawah",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-16",
+      "hex": "#2c3c70",
+      "name": "Kota jauh malam",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-17",
+      "hex": "#24305e",
+      "name": "Kota jauh malam bayangan",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-18",
+      "hex": "#f6cfb4",
+      "name": "Dinding peach",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-19",
+      "hex": "#bfe3d0",
+      "name": "Dinding mint",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-20",
+      "hex": "#9cc8b2",
+      "name": "Dinding mint bayangan",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-21",
+      "hex": "#f6e09a",
+      "name": "Dinding kuning",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-22",
+      "hex": "#dcc070",
+      "name": "Dinding kuning bayangan",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-23",
+      "hex": "#f4c4cc",
+      "name": "Dinding merah muda",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-24",
+      "hex": "#dca0ac",
+      "name": "Dinding merah muda bayangan",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-25",
+      "hex": "#e2c9a6",
+      "name": "Dinding krem bayangan / tepi kertas",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-26",
+      "hex": "#c4503c",
+      "name": "Genteng",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-27",
+      "hex": "#962f26",
+      "name": "Genteng bayangan",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-28",
+      "hex": "#e07a5c",
+      "name": "Genteng sorot",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-29",
+      "hex": "#d4cec4",
+      "name": "Trotoar",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-30",
+      "hex": "#b8b0a4",
+      "name": "Nat trotoar",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-31",
+      "hex": "#9a96a0",
+      "name": "Kanstin",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-32",
+      "hex": "#76727c",
+      "name": "Kanstin bayangan / tiang",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-33",
+      "hex": "#5a5a62",
+      "name": "Aspal",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-34",
+      "hex": "#4a4a52",
+      "name": "Aspal basah / bayangan",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-35",
+      "hex": "#7cc060",
+      "name": "Rumput",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-36",
+      "hex": "#a4d880",
+      "name": "Rumput sorot",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-37",
+      "hex": "#c8a878",
+      "name": "Tanah / jalan setapak",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-38",
+      "hex": "#a8a49c",
+      "name": "Batu talud",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-39",
+      "hex": "#888478",
+      "name": "Batu talud bayangan",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-40",
+      "hex": "#c49a64",
+      "name": "Papan gabus",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-41",
+      "hex": "#a87c4a",
+      "name": "Papan gabus bayangan",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-42",
+      "hex": "#dcb47c",
+      "name": "Papan gabus sorot",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-43",
+      "hex": "#263a3f",
+      "name": "Panel kode (GDD)",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-44",
+      "hex": "#1e2e32",
+      "name": "Panel kode gelap",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-45",
+      "hex": "#2e464c",
+      "name": "Panel kode garis",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-46",
+      "hex": "#2f5a46",
+      "name": "Papan tulis kapur",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-47",
+      "hex": "#264a3a",
+      "name": "Papan tulis bayangan",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-48",
+      "hex": "#3c6c56",
+      "name": "Bekas kapur",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-49",
+      "hex": "#8fb4a2",
+      "name": "Kapur hijau muda",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-50",
+      "hex": "#d8b88a",
+      "name": "Papan berlubang bengkel",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-51",
+      "hex": "#bc9a6c",
+      "name": "Lubang papan bengkel",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-52",
+      "hex": "#e07a7a",
+      "name": "Garis margin buku",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-53",
+      "hex": "#b0c4e4",
+      "name": "Gunung jauh",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-54",
+      "hex": "#9cb2d8",
+      "name": "Gunung jauh bayangan",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-55",
+      "hex": "#c8d8f0",
+      "name": "Gunung jauh sorot",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-56",
+      "hex": "#aab2c0",
+      "name": "Gunung mendung",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-57",
+      "hex": "#9aa2b2",
+      "name": "Gunung mendung bayangan",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-58",
+      "hex": "#86c0a8",
+      "name": "Pohon jarak tengah",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-59",
+      "hex": "#6aa890",
+      "name": "Pohon jarak tengah bayangan",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-60",
+      "hex": "#8c9ca0",
+      "name": "Pohon jarak tengah mendung",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-61",
+      "hex": "#7a8a90",
+      "name": "Pohon mendung bayangan",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-62",
+      "hex": "#1e3a4a",
+      "name": "Pohon jarak tengah malam",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-63",
+      "hex": "#62626a",
+      "name": "Tambalan aspal",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-64",
+      "hex": "#c4bcb0",
+      "name": "Bayangan di trotoar",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-65",
+      "hex": "#a88a5c",
+      "name": "Tanah lubang pohon",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-66",
+      "hex": "#9cd070",
+      "name": "Sawah",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-67",
+      "hex": "#7cb858",
+      "name": "Sawah pematang",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-68",
+      "hex": "#d8c0a0",
+      "name": "Noda kopi di kertas",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-69",
+      "hex": "#2e5a7a",
+      "name": "Kode semu biru",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-70",
+      "hex": "#5a4a7a",
+      "name": "Kode semu ungu",
+      "users": [
+        "Latar"
+      ]
+    },
+    {
+      "code": "LT-71",
+      "hex": "#7a5a3a",
+      "name": "Kode semu cokelat",
+      "users": [
+        "Latar"
+      ]
+    }
+  ],
+  "portraits": {
+    "name": "bang_udin",
+    "size": 64,
+    "expressions": [
+      "biasa",
+      "panik",
+      "pusing",
+      "bangga"
+    ]
+  },
+  "icons": [
+    {
+      "id": "bintang_penuh",
+      "group": "inti",
+      "label": "Bintang (penuh)",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "bintang_kosong",
+      "group": "inti",
+      "label": "Bintang (kosong)",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "bintang_bonus",
+      "group": "inti",
+      "label": "Bintang bonus",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "jam",
+      "group": "inti",
+      "label": "Jam / timer kelas",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "jam_hampir_habis",
+      "group": "inti",
+      "label": "Jam hampir habis",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "kursi_kosong",
+      "group": "inti",
+      "label": "Kursi kosong",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "kursi_terisi",
+      "group": "inti",
+      "label": "Kursi terisi",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "penumpang",
+      "group": "inti",
+      "label": "Penumpang / antrian anak",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "kacamata",
+      "group": "inti",
+      "label": "Kacamata Programmer",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "kacamata_aktif",
+      "group": "inti",
+      "label": "Kacamata Programmer (aktif)",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "gembok_tertutup",
+      "group": "inti",
+      "label": "Gembok tertutup (level terkunci)",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "gembok_terbuka",
+      "group": "inti",
+      "label": "Gembok terbuka (level baru terbuka)",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "petunjuk",
+      "group": "inti",
+      "label": "Petunjuk (mati)",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "petunjuk_aktif",
+      "group": "inti",
+      "label": "Petunjuk (menyala / ada petunjuk baru)",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "jalan",
+      "group": "kendali",
+      "label": "Jalan",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "jeda",
+      "group": "kendali",
+      "label": "Jeda",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "lewati",
+      "group": "kendali",
+      "label": "Lewati animasi",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "kecepatan_x1",
+      "group": "kendali",
+      "label": "Kecepatan \u00d71",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "kecepatan_x2",
+      "group": "kendali",
+      "label": "Kecepatan \u00d72",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "kecepatan_x3",
+      "group": "kendali",
+      "label": "Kecepatan \u00d73",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "kecepatan_x4",
+      "group": "kendali",
+      "label": "Kecepatan \u00d74",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "ulang",
+      "group": "kendali",
+      "label": "Ulang",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "hari_uji",
+      "group": "keadaan",
+      "label": "Hari uji",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "hari_uji_1",
+      "group": "keadaan",
+      "label": "Hari uji ke-1",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "hari_uji_2",
+      "group": "keadaan",
+      "label": "Hari uji ke-2",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "hari_uji_3",
+      "group": "keadaan",
+      "label": "Hari uji ke-3",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "lulus",
+      "group": "keadaan",
+      "label": "Lulus (hari uji / level)",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "gagal",
+      "group": "keadaan",
+      "label": "Gagal",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "error_kompilasi",
+      "group": "keadaan",
+      "label": "Error kompilasi",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "peringatan",
+      "group": "keadaan",
+      "label": "Peringatan / isian berkedip",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "uang",
+      "group": "keadaan",
+      "label": "Uang / setoran",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "bensin",
+      "group": "keadaan",
+      "label": "Bensin",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "hujan",
+      "group": "keadaan",
+      "label": "Hujan (hujan = 1)",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "cerah",
+      "group": "keadaan",
+      "label": "Cerah (hujan = 0)",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "angsa",
+      "group": "keadaan",
+      "label": "Angsa Si Kwek (angsa = 1)",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "kucing",
+      "group": "keadaan",
+      "label": "Kucing Oyen (kucing = 1)",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "menu_utama",
+      "group": "navigasi",
+      "label": "Menu utama / rumah",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "peta",
+      "group": "navigasi",
+      "label": "Peta Sukamuter",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "rapor",
+      "group": "navigasi",
+      "label": "Rapor Kenek",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "papan_skor",
+      "group": "navigasi",
+      "label": "Papan skor kelas",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "pengaturan",
+      "group": "navigasi",
+      "label": "Pengaturan",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "musik_nyala",
+      "group": "navigasi",
+      "label": "Musik nyala",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "musik_mati",
+      "group": "navigasi",
+      "label": "Musik mati",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "suara_nyala",
+      "group": "navigasi",
+      "label": "Efek suara nyala",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "suara_mati",
+      "group": "navigasi",
+      "label": "Efek suara mati",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "kembali",
+      "group": "navigasi",
+      "label": "Kembali",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "lanjut",
+      "group": "navigasi",
+      "label": "Lanjut",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "tutup",
+      "group": "navigasi",
+      "label": "Tutup panel",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "info",
+      "group": "navigasi",
+      "label": "Info / panduan",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "mode_proyektor",
+      "group": "navigasi",
+      "label": "Mode proyektor",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "salin_kode",
+      "group": "navigasi",
+      "label": "Salin kode rapor",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "id": "lencana_penghitung",
+      "group": "reward",
+      "label": "Lencana Bab 1 \u00b7 Penghitung",
+      "sizes": [
+        32
+      ]
+    },
+    {
+      "id": "lencana_lampu_sensor",
+      "group": "reward",
+      "label": "Lencana Bab 2 \u00b7 Lampu Sensor",
+      "sizes": [
+        32
+      ]
+    },
+    {
+      "id": "lencana_pengeras_suara",
+      "group": "reward",
+      "label": "Lencana Bab 3 \u00b7 Pengeras Suara",
+      "sizes": [
+        32
+      ]
+    },
+    {
+      "id": "lencana_pawang_angsa",
+      "group": "reward",
+      "label": "Lencana Bab 4 \u00b7 Pawang Angsa",
+      "sizes": [
+        32
+      ]
+    },
+    {
+      "id": "lencana_kurir_permen",
+      "group": "reward",
+      "label": "Lencana Bab 5 \u00b7 Kurir Permen",
+      "sizes": [
+        32
+      ]
+    },
+    {
+      "id": "bingkai_emas",
+      "group": "reward",
+      "label": "Bingkai emas (tempel di atas lencana)",
+      "sizes": [
+        32
+      ]
+    },
+    {
+      "id": "gelar_kenek_magang",
+      "group": "reward",
+      "label": "Gelar Kenek Magang (0\u201319 bintang)",
+      "sizes": [
+        32
+      ]
+    },
+    {
+      "id": "gelar_kenek_andal",
+      "group": "reward",
+      "label": "Gelar Kenek Andal (20\u201331 bintang)",
+      "sizes": [
+        32
+      ]
+    },
+    {
+      "id": "gelar_kenek_juara",
+      "group": "reward",
+      "label": "Gelar Kenek Juara Komplek (32\u201339 bintang)",
+      "sizes": [
+        32
+      ]
+    }
+  ],
+  "title": {
+    "size": [
+      196,
+      102
+    ],
+    "intro": {
+      "frames": 27,
+      "fps": 12,
+      "loop": false
+    },
+    "idle": {
+      "frames": 16,
+      "fps": 10,
+      "loop": true
+    },
+    "sheet": "judul/judul_anim_sheet.png"
+  },
+  "backgrounds": [
+    {
+      "id": "judul",
+      "label": "Layar judul",
+      "group": "samping",
+      "file": "latar/samping/judul.png"
+    },
+    {
+      "id": "prolog",
+      "label": "Prolog \u00b7 Griya Muter pagi",
+      "group": "samping",
+      "file": "latar/samping/prolog.png"
+    },
+    {
+      "id": "griya_muter",
+      "label": "Bab 1 \u00b7 Jalan Melingkar Griya Muter",
+      "group": "samping",
+      "file": "latar/samping/griya_muter.png"
+    },
+    {
+      "id": "warung_imah",
+      "label": "Bab 2 \u00b7 Halte Warung Bu Imah",
+      "group": "samping",
+      "file": "latar/samping/warung_imah.png"
+    },
+    {
+      "id": "gang_mangga",
+      "label": "Bab 3 \u00b7 Gang Mangga",
+      "group": "samping",
+      "file": "latar/samping/gang_mangga.png"
+    },
+    {
+      "id": "pasar_kaget_mendung",
+      "label": "Bab 4 \u00b7 Jalan Pasar Kaget (mendung, gerimis, genangan)",
+      "group": "samping",
+      "file": "latar/samping/pasar_kaget_mendung.png"
+    },
+    {
+      "id": "komplek_abc",
+      "label": "Bab 5 \u00b7 Komplek Bertingkat ABC",
+      "group": "samping",
+      "file": "latar/samping/komplek_abc.png"
+    },
+    {
+      "id": "sekolah",
+      "label": "Halte Sekolah",
+      "group": "samping",
+      "file": "latar/samping/sekolah.png"
+    },
+    {
+      "id": "taman_kota",
+      "label": "Halte Taman Kota",
+      "group": "samping",
+      "file": "latar/samping/taman_kota.png"
+    },
+    {
+      "id": "lapangan_merdeka",
+      "label": "Halte Lapangan Merdeka (siang)",
+      "group": "samping",
+      "file": "latar/samping/lapangan_merdeka.png"
+    },
+    {
+      "id": "lapangan_pasar_malam",
+      "label": "Ujian \u00b7 Pasar malam Lapangan Merdeka",
+      "group": "samping",
+      "file": "latar/samping/lapangan_pasar_malam.png"
+    },
+    {
+      "id": "epilog_karnaval",
+      "label": "Epilog \u00b7 Karnaval 17-an",
+      "group": "samping",
+      "file": "latar/samping/epilog_karnaval.png"
+    },
+    {
+      "id": "peta_sukamuter",
+      "label": "Peta Sukamuter (tanpa label & kartu)",
+      "group": "atas",
+      "file": "latar/atas/peta_sukamuter.png"
+    },
+    {
+      "id": "arena_atas_griya_muter",
+      "label": "Arena tampak atas Bab 1 (jalan melingkar)",
+      "group": "atas",
+      "file": "latar/atas/arena_atas_griya_muter.png"
+    },
+    {
+      "id": "ui_pilih_bab",
+      "label": "Pilih bab \u00b7 papan gabus",
+      "group": "ui",
+      "file": "latar/ui/ui_pilih_bab.png"
+    },
+    {
+      "id": "ui_misi",
+      "label": "Misi \u00b7 kabin angkot",
+      "group": "ui",
+      "file": "latar/ui/ui_misi.png"
+    },
+    {
+      "id": "ui_hasil_lulus",
+      "label": "Hasil lulus \u00b7 sinar cerah",
+      "group": "ui",
+      "file": "latar/ui/ui_hasil_lulus.png"
+    },
+    {
+      "id": "ui_hasil_gagal",
+      "label": "Hasil gagal \u00b7 sinar mendung + gerimis",
+      "group": "ui",
+      "file": "latar/ui/ui_hasil_gagal.png"
+    },
+    {
+      "id": "ui_error_kompilasi",
+      "label": "Error kompilasi \u00b7 layar gelap bergaris peringatan",
+      "group": "ui",
+      "file": "latar/ui/ui_error_kompilasi.png"
+    },
+    {
+      "id": "ui_kacamata_programmer",
+      "label": "Kacamata Programmer \u00b7 editor kode",
+      "group": "ui",
+      "file": "latar/ui/ui_kacamata_programmer.png"
+    },
+    {
+      "id": "ui_kuis_kilat",
+      "label": "Kuis kilat \u00b7 papan tulis kapur",
+      "group": "ui",
+      "file": "latar/ui/ui_kuis_kilat.png"
+    },
+    {
+      "id": "ui_rapor",
+      "label": "Rapor Kenek \u00b7 meja kayu",
+      "group": "ui",
+      "file": "latar/ui/ui_rapor.png"
+    },
+    {
+      "id": "ui_pengaturan",
+      "label": "Pengaturan \u00b7 papan berlubang bengkel",
+      "group": "ui",
+      "file": "latar/ui/ui_pengaturan.png"
+    },
+    {
+      "id": "ui_panduan_guru",
+      "label": "Panduan guru \u00b7 kertas buku tulis",
+      "group": "ui",
+      "file": "latar/ui/ui_panduan_guru.png"
+    }
+  ]
+}

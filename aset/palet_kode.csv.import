@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b0ovv5q6twhc6"
+
+[deps]
+
+files=["res://aset/palet_kode.hex.translation", "res://aset/palet_kode.nama.translation", "res://aset/palet_kode.dipakai.translation"]
+
+source_file="res://aset/palet_kode.csv"
+dest_files=["res://aset/palet_kode.hex.translation", "res://aset/palet_kode.nama.translation", "res://aset/palet_kode.dipakai.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

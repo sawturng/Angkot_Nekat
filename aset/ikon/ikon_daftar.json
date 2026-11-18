@@ -1,0 +1,533 @@
+[
+ {
+  "id": "bintang_penuh",
+  "group": "inti",
+  "label": "Bintang (penuh)",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "bintang_kosong",
+  "group": "inti",
+  "label": "Bintang (kosong)",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "bintang_bonus",
+  "group": "inti",
+  "label": "Bintang bonus",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "jam",
+  "group": "inti",
+  "label": "Jam / timer kelas",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "jam_hampir_habis",
+  "group": "inti",
+  "label": "Jam hampir habis",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "kursi_kosong",
+  "group": "inti",
+  "label": "Kursi kosong",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "kursi_terisi",
+  "group": "inti",
+  "label": "Kursi terisi",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "penumpang",
+  "group": "inti",
+  "label": "Penumpang / antrian anak",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "kacamata",
+  "group": "inti",
+  "label": "Kacamata Programmer",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "kacamata_aktif",
+  "group": "inti",
+  "label": "Kacamata Programmer (aktif)",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "gembok_tertutup",
+  "group": "inti",
+  "label": "Gembok tertutup (level terkunci)",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "gembok_terbuka",
+  "group": "inti",
+  "label": "Gembok terbuka (level baru terbuka)",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "petunjuk",
+  "group": "inti",
+  "label": "Petunjuk (mati)",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "petunjuk_aktif",
+  "group": "inti",
+  "label": "Petunjuk (menyala / ada petunjuk baru)",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "jalan",
+  "group": "kendali",
+  "label": "Jalan",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "jeda",
+  "group": "kendali",
+  "label": "Jeda",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "lewati",
+  "group": "kendali",
+  "label": "Lewati animasi",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "kecepatan_x1",
+  "group": "kendali",
+  "label": "Kecepatan \u00d71",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "kecepatan_x2",
+  "group": "kendali",
+  "label": "Kecepatan \u00d72",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "kecepatan_x3",
+  "group": "kendali",
+  "label": "Kecepatan \u00d73",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "kecepatan_x4",
+  "group": "kendali",
+  "label": "Kecepatan \u00d74",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "ulang",
+  "group": "kendali",
+  "label": "Ulang",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "hari_uji",
+  "group": "keadaan",
+  "label": "Hari uji",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "hari_uji_1",
+  "group": "keadaan",
+  "label": "Hari uji ke-1",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "hari_uji_2",
+  "group": "keadaan",
+  "label": "Hari uji ke-2",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "hari_uji_3",
+  "group": "keadaan",
+  "label": "Hari uji ke-3",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "lulus",
+  "group": "keadaan",
+  "label": "Lulus (hari uji / level)",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "gagal",
+  "group": "keadaan",
+  "label": "Gagal",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "error_kompilasi",
+  "group": "keadaan",
+  "label": "Error kompilasi",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "peringatan",
+  "group": "keadaan",
+  "label": "Peringatan / isian berkedip",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "uang",
+  "group": "keadaan",
+  "label": "Uang / setoran",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "bensin",
+  "group": "keadaan",
+  "label": "Bensin",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "hujan",
+  "group": "keadaan",
+  "label": "Hujan (hujan = 1)",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "cerah",
+  "group": "keadaan",
+  "label": "Cerah (hujan = 0)",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "angsa",
+  "group": "keadaan",
+  "label": "Angsa Si Kwek (angsa = 1)",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "kucing",
+  "group": "keadaan",
+  "label": "Kucing Oyen (kucing = 1)",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "menu_utama",
+  "group": "navigasi",
+  "label": "Menu utama / rumah",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "peta",
+  "group": "navigasi",
+  "label": "Peta Sukamuter",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "rapor",
+  "group": "navigasi",
+  "label": "Rapor Kenek",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "papan_skor",
+  "group": "navigasi",
+  "label": "Papan skor kelas",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "pengaturan",
+  "group": "navigasi",
+  "label": "Pengaturan",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "musik_nyala",
+  "group": "navigasi",
+  "label": "Musik nyala",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "musik_mati",
+  "group": "navigasi",
+  "label": "Musik mati",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "suara_nyala",
+  "group": "navigasi",
+  "label": "Efek suara nyala",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "suara_mati",
+  "group": "navigasi",
+  "label": "Efek suara mati",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "kembali",
+  "group": "navigasi",
+  "label": "Kembali",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "lanjut",
+  "group": "navigasi",
+  "label": "Lanjut",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "tutup",
+  "group": "navigasi",
+  "label": "Tutup panel",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "info",
+  "group": "navigasi",
+  "label": "Info / panduan",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "mode_proyektor",
+  "group": "navigasi",
+  "label": "Mode proyektor",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "salin_kode",
+  "group": "navigasi",
+  "label": "Salin kode rapor",
+  "sizes": [
+   16,
+   32
+  ]
+ },
+ {
+  "id": "lencana_penghitung",
+  "group": "reward",
+  "label": "Lencana Bab 1 \u00b7 Penghitung",
+  "sizes": [
+   32
+  ]
+ },
+ {
+  "id": "lencana_lampu_sensor",
+  "group": "reward",
+  "label": "Lencana Bab 2 \u00b7 Lampu Sensor",
+  "sizes": [
+   32
+  ]
+ },
+ {
+  "id": "lencana_pengeras_suara",
+  "group": "reward",
+  "label": "Lencana Bab 3 \u00b7 Pengeras Suara",
+  "sizes": [
+   32
+  ]
+ },
+ {
+  "id": "lencana_pawang_angsa",
+  "group": "reward",
+  "label": "Lencana Bab 4 \u00b7 Pawang Angsa",
+  "sizes": [
+   32
+  ]
+ },
+ {
+  "id": "lencana_kurir_permen",
+  "group": "reward",
+  "label": "Lencana Bab 5 \u00b7 Kurir Permen",
+  "sizes": [
+   32
+  ]
+ },
+ {
+  "id": "bingkai_emas",
+  "group": "reward",
+  "label": "Bingkai emas (tempel di atas lencana)",
+  "sizes": [
+   32
+  ]
+ },
+ {
+  "id": "gelar_kenek_magang",
+  "group": "reward",
+  "label": "Gelar Kenek Magang (0\u201319 bintang)",
+  "sizes": [
+   32
+  ]
+ },
+ {
+  "id": "gelar_kenek_andal",
+  "group": "reward",
+  "label": "Gelar Kenek Andal (20\u201331 bintang)",
+  "sizes": [
+   32
+  ]
+ },
+ {
+  "id": "gelar_kenek_juara",
+  "group": "reward",
+  "label": "Gelar Kenek Juara Komplek (32\u201339 bintang)",
+  "sizes": [
+   32
+  ]
+ }
+]

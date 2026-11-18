@@ -1,0 +1,146 @@
+[
+ {
+  "id": "judul",
+  "label": "Layar judul",
+  "group": "samping",
+  "file": "latar/samping/judul.png"
+ },
+ {
+  "id": "prolog",
+  "label": "Prolog \u00b7 Griya Muter pagi",
+  "group": "samping",
+  "file": "latar/samping/prolog.png"
+ },
+ {
+  "id": "griya_muter",
+  "label": "Bab 1 \u00b7 Jalan Melingkar Griya Muter",
+  "group": "samping",
+  "file": "latar/samping/griya_muter.png"
+ },
+ {
+  "id": "warung_imah",
+  "label": "Bab 2 \u00b7 Halte Warung Bu Imah",
+  "group": "samping",
+  "file": "latar/samping/warung_imah.png"
+ },
+ {
+  "id": "gang_mangga",
+  "label": "Bab 3 \u00b7 Gang Mangga",
+  "group": "samping",
+  "file": "latar/samping/gang_mangga.png"
+ },
+ {
+  "id": "pasar_kaget_mendung",
+  "label": "Bab 4 \u00b7 Jalan Pasar Kaget (mendung, gerimis, genangan)",
+  "group": "samping",
+  "file": "latar/samping/pasar_kaget_mendung.png"
+ },
+ {
+  "id": "komplek_abc",
+  "label": "Bab 5 \u00b7 Komplek Bertingkat ABC",
+  "group": "samping",
+  "file": "latar/samping/komplek_abc.png"
+ },
+ {
+  "id": "sekolah",
+  "label": "Halte Sekolah",
+  "group": "samping",
+  "file": "latar/samping/sekolah.png"
+ },
+ {
+  "id": "taman_kota",
+  "label": "Halte Taman Kota",
+  "group": "samping",
+  "file": "latar/samping/taman_kota.png"
+ },
+ {
+  "id": "lapangan_merdeka",
+  "label": "Halte Lapangan Merdeka (siang)",
+  "group": "samping",
+  "file": "latar/samping/lapangan_merdeka.png"
+ },
+ {
+  "id": "lapangan_pasar_malam",
+  "label": "Ujian \u00b7 Pasar malam Lapangan Merdeka",
+  "group": "samping",
+  "file": "latar/samping/lapangan_pasar_malam.png"
+ },
+ {
+  "id": "epilog_karnaval",
+  "label": "Epilog \u00b7 Karnaval 17-an",
+  "group": "samping",
+  "file": "latar/samping/epilog_karnaval.png"
+ },
+ {
+  "id": "peta_sukamuter",
+  "label": "Peta Sukamuter (tanpa label & kartu)",
+  "group": "atas",
+  "file": "latar/atas/peta_sukamuter.png"
+ },
+ {
+  "id": "arena_atas_griya_muter",
+  "label": "Arena tampak atas Bab 1 (jalan melingkar)",
+  "group": "atas",
+  "file": "latar/atas/arena_atas_griya_muter.png"
+ },
+ {
+  "id": "ui_pilih_bab",
+  "label": "Pilih bab \u00b7 papan gabus",
+  "group": "ui",
+  "file": "latar/ui/ui_pilih_bab.png"
+ },
+ {
+  "id": "ui_misi",
+  "label": "Misi \u00b7 kabin angkot",
+  "group": "ui",
+  "file": "latar/ui/ui_misi.png"
+ },
+ {
+  "id": "ui_hasil_lulus",
+  "label": "Hasil lulus \u00b7 sinar cerah",
+  "group": "ui",
+  "file": "latar/ui/ui_hasil_lulus.png"
+ },
+ {
+  "id": "ui_hasil_gagal",
+  "label": "Hasil gagal \u00b7 sinar mendung + gerimis",
+  "group": "ui",
+  "file": "latar/ui/ui_hasil_gagal.png"
+ },
+ {
+  "id": "ui_error_kompilasi",
+  "label": "Error kompilasi \u00b7 layar gelap bergaris peringatan",
+  "group": "ui",
+  "file": "latar/ui/ui_error_kompilasi.png"
+ },
+ {
+  "id": "ui_kacamata_programmer",
+  "label": "Kacamata Programmer \u00b7 editor kode",
+  "group": "ui",
+  "file": "latar/ui/ui_kacamata_programmer.png"
+ },
+ {
+  "id": "ui_kuis_kilat",
+  "label": "Kuis kilat \u00b7 papan tulis kapur",
+  "group": "ui",
+  "file": "latar/ui/ui_kuis_kilat.png"
+ },
+ {
+  "id": "ui_rapor",
+  "label": "Rapor Kenek \u00b7 meja kayu",
+  "group": "ui",
+  "file": "latar/ui/ui_rapor.png"
+ },
+ {
+  "id": "ui_pengaturan",
+  "label": "Pengaturan \u00b7 papan berlubang bengkel",
+  "group": "ui",
+  "file": "latar/ui/ui_pengaturan.png"
+ },
+ {
+  "id": "ui_panduan_guru",
+  "label": "Panduan guru \u00b7 kertas buku tulis",
+  "group": "ui",
+  "file": "latar/ui/ui_panduan_guru.png"
+ }
+]
